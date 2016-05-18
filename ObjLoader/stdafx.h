@@ -7,9 +7,11 @@
 
 #include "targetver.h"
 
-#include <stdio.h>
-#include <tchar.h>
-
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <vector>
 
 
 // TODO: Установите здесь ссылки на дополнительные заголовки, требующиеся для программы
