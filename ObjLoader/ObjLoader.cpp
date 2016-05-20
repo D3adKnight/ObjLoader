@@ -1,4 +1,4 @@
-// ObjLoader.cpp: îïðåäåëÿåò òî÷êó âõîäà äëÿ êîíñîëüíîãî ïðèëîæåíèÿ.
+// ObjLoader.cpp: Ã®Ã¯Ã°Ã¥Ã¤Ã¥Ã«Ã¿Ã¥Ã² Ã²Ã®Ã·ÃªÃ³ Ã¢ÃµÃ®Ã¤Ã  Ã¤Ã«Ã¿ ÃªÃ®Ã­Ã±Ã®Ã«Ã¼Ã­Ã®Ã£Ã® Ã¯Ã°Ã¨Ã«Ã®Ã¦Ã¥Ã­Ã¨Ã¿.
 //
 
 #include "stdafx.h"
@@ -153,9 +153,9 @@ bool LoadObjFile(char* filename, OglModel* model)
 		copy_vec2(tmp_texcoords[f.tIndex2], model->vertices[j+1].texcoords);
 
 		// third vertice
-		copy_vec3(tmp_vertices[f.vIndex2], model->vertices[j+2].position);
-		copy_vec3(tmp_normals[f.nIndex2], model->vertices[j+2].normal);
-		copy_vec2(tmp_texcoords[f.tIndex2], model->vertices[j+2].texcoords);
+		copy_vec3(tmp_vertices[f.vIndex3], model->vertices[j+2].position);
+		copy_vec3(tmp_normals[f.nIndex3], model->vertices[j+2].normal);
+		copy_vec2(tmp_texcoords[f.tIndex3], model->vertices[j+2].texcoords);
 	}
 
 	return true;
